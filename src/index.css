@@ -1,0 +1,71 @@
+body {
+  margin: 0;
+}
+
+.container {
+  height: 300vh;
+  background-color: #000;
+  position: relative;
+}
+
+.nav-menu {
+  position: sticky;
+  z-index: 10;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 2rem 0 2rem;
+  top: 2rem;
+  width: 96%;
+}
+
+.nav-logo {
+  width: 8rem;
+  aspect-ratio: 1;
+}
+
+.nav-menu-items {
+  font-size: 30px;
+  color: white;
+}
+
+.hero-primary {
+  background-color: #1d428a;
+  margin: auto;
+  position: fixed;
+}
+
+.hero-content {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 100%;
+  color: white;
+  text-align: center;
+  font-size: 8rem;
+  font-family: "Poppins";
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.we-text {
+  animation: fadeIn 13s;
+}
+@keyframes fadeIn {
+  0% {opacity: 0;}
+  100% {opacity: 1;}
+}
+.are-text {
+  animation: fadeIn 3s;
+}
+@keyframes fadeIn {
+  0% {opacity: 0;}
+  100% {opacity: 1;}
+}
+.incuwise-text {
+  animation: fadeIn 1s;
+}
+@keyframes fadeIn {
+  0% {opacity: 0;}
+  100% {opacity: 1;}
+}
